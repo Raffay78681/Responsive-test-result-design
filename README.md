@@ -1,5 +1,5 @@
-This is a design of a test result screen that consists of 2 separate cards that are joined together within the <main> tag.
-Both cards have <section> tag and are used for separate tasks.
+This is a design of a test result screen that consists of 2 separate cards that are joined together within the main tag.
+Both cards have section tag and are used for separate tasks.
 The left card shows the average or overall score and the card on the right shows the results in separate tests.
 The boxes with individual test results are in the form of an unordered list.
 
