@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results summary card design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/images/favicon-32x32.png" />
+  </head>
+  <body>
+    <main>
+      <section class="overall">
+        <h2 id="your-result">Your Result</h2>
+        <div id="circle">
+          <p id="marks">76</p>
+          <p id="out-of">of 100</p>
+        </div>
+        <h2 id="remarks">Great</h2>
+        <p id="remarks-summary">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="summary">
+        <h1 class="heading">Summary</h1>
+        <ul>
+          <li class="reaction-wrapper">
+            <div class="img-p-wrapper">
+              <img
+                src="assets/images/icon-reaction.svg"
+                alt=""
+                class="reaction"
+              />
+              <p id="reaction">Reaction</p>
+            </div>
+            <p class="marks">80 <span class="marks-total">/ 100</span></p>
+          </li>
+          <li class="memory-wrapper">
+            <div class="img-p-wrapper">
+              <img src="assets/images/icon-memory.svg" alt="" class="memory" />
+              <p id="memory">Memory</p>
+            </div>
+            <p class="marks">92 <span class="marks-total">/ 100</span></p>
+          </li>
+          <li class="verbal-wrapper">
+            <div class="img-p-wrapper">
+              <img src="assets/images/icon-verbal.svg" alt="" class="verbal" />
+              <p id="verbal">Verbal</p>
+            </div>
+            <p class="marks">61 <span class="marks-total">/ 100</span></p>
+          </li>
+          <li class="visual-wrapper">
+            <div class="img-p-wrapper">
+              <img src="assets/images/icon-visual.svg" alt="" class="visual" />
+              <p id="visual">Visual</p>
+            </div>
+            <p class="marks">73 <span class="marks-total">/ 100</span></p>
+          </li>
+        </ul>
+        <div class="button-container">
+          <button type="button" id="continue">Continue</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
